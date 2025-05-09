@@ -36,17 +36,18 @@
         default_layer {
             display-name = "QWERTY";
 
-            // --------------------------------------------------------------------------------
-            // |  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BKSP |
-            // | CTRL |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |  '   | 
-            // | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | ESC  |
-            //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
+
+            // ------------------------------------------------------------------------------------
+            // |  TAB |  Q  |  W  |  F   |  P  |  G  |       |  J  |  L  |  U  |  Y  |  ;  | BKSP |
+            // | BKSP |  A  |  R  |  S   |  T  |  D  |       |  H  |  N  |  E  |  I  |  O  |  '   | 
+            // | CTRL |  Z  |  X  |  C   |  V  |  B  |       |  K  |  M  |  ,  |  .  |  /  | ESC  |
+            //                    | LWR | SHFT | SPC |       | ENT | ALT | RSE |
 
             bindings = <
-&kp TAB    &kp Q  &kp W  &kp F   &kp P  &kp G          &kp J   &kp L  &kp U      &kp Y    &kp SEMI   &kp BSPC
-&kp BSPC   &kp A  &kp R  &kp S   &kp T  &kp D          &kp H   &kp N  &kp E      &kp I    &kp O      &kp SQT
-&kp LCTRL  &kp Z  &kp X  &kp C   &kp V  &kp B          &kp K   &kp M  &kp COMMA  &kp DOT  &kp FSLH   &kp ESC
-                         &mo 1   &td0   &lt 3 SPACE      &lt 3 ENTER  &kp RALT   &mo 2
+&kp TAB    &kp Q  &kp W  &kp F   &kp P  &kp G              &kp J        &kp L      &kp U      &kp Y    &kp SEMI   &kp BSPC
+&kp BSPC   &kp A  &kp R  &kp S   &kp T  &kp D              &kp H        &kp N      &kp E      &kp I    &kp O      &kp SQT
+&kp LCTRL  &kp Z  &kp X  &kp C   &kp V  &kp B              &kp K        &kp M      &kp COMMA  &kp DOT  &kp FSLH   &kp ESC
+                         &mo 1   &td0   &lt 3 SPACE        &lt 3 ENTER  &kp RALT   &mo 2
             >;
         };
 
